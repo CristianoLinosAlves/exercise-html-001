@@ -1,0 +1,112 @@
+.container{
+    display: grid ;
+    
+    
+}
+
+.title{
+    width: 117px;
+    height: 25px;
+    font-weight: 700;
+    size: 32px;
+}
+
+.subtilte{
+    width: 447px;
+    height: 40px;
+}
+
+.img{
+    width: 635px;
+    height: 319px; 
+    margin-top: -440px;
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    margin-right: -230px;
+}
+
+.Bbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 443px;
+    background: rgba(21, 30, 75, 1);
+
+}
+
+.textB{
+    width: 192px;
+    height: 195px;
+    
+}
+
+.Wbox{
+    width: 145px;
+    height: 46px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    
+}
+.Wbox p {
+    margin-left: 30px;
+}
+.treeiten{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:-80px;
+    max-width: 193px;
+    grid-gap: 27px;
+}
+
+.subT1{
+    width: 193px;
+    height: 51.43px;
+}
+
+.subT2{
+    grid-column-start: 2 ;
+    grid-row-start: 1;
+    width: 193px;
+    height: 51.43px;
+}
+
+.subT3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 193px;
+    height: 69px;
+}
+
+.text1, .text2, .text3{
+    width: 193px;
+    height: 216.81px;
+    
+}
+
+.subP1{
+    width: 193px;
+    height: 149.81px;
+}
+
+.subP2{
+    width: 193px;
+    height: 149.81px;
+}
+
+.subP3{
+    width: 193px;
+    height: 134px;
+}
+.subP1, .subP2, .subP3{
+    margin-top: 15px;
+}
+.subT1, .subT2, .subT3{
+    border: 1px solid black;
+}
